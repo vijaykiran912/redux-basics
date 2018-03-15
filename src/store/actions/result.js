@@ -13,7 +13,7 @@ export const storeResult = ( res ) => {
         console.log(oldCounter); */
         setTimeout( () => {
             dispatch(saveResult(res));
-        }, 2000 );
+        }, 1000 );
     }
 };
 
